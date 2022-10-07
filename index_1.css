@@ -1,0 +1,46 @@
+body{
+    background-image: url(./pexels-lumn-399161.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        left: 20%;
+        top: 6vh;
+        border: 19px solid white;
+        width: 30%;
+        height: 48vh;
+        background-color: #d1e0e8;
+    }
+    input {
+        margin: 1%;
+        width: 32%;
+        position: relative;
+        top: -4vh;
+        left: 25%;
+        border: none;
+    }
+button{
+    margin: 1%;
+    width: 9%;
+    width: 20%;
+}
+#save{
+    position: relative;
+    top: -5.6vh;
+    left: 28%;
+}
+h1{
+   
+    position: relative;
+    left: 30%;
+}
+label{
+    position: relative;
+    top: 1vh;
+}

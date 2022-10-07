@@ -1,0 +1,51 @@
+body{
+    background-image: url(./pexels-lumn-399161.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#product{
+    width: 50%;
+    position: relative;
+    left: 12%;
+}
+#pr-label{
+    position: relative;
+    top: 4vh;
+}
+
+input{
+    width: 20%;
+}
+
+#upload,#scan,#verify,#camera{
+    width: 10%;
+}
+#upload{
+    position: relative;
+    top: -3.7vh;
+    left: 20%;
+}
+#desc{
+    position: relative;
+    top: -7.2vh;
+    left: 40%;
+}
+#scan{
+    position: relative;
+    left: 45%;
+    top: -5vh;
+}
+#bar-code{
+    position: relative;
+    top: -2vh;
+    left: 20%;
+}
+#verify{
+    position: relative;
+    top: -6vh;
+    left: 45%;
+}
